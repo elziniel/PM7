@@ -3,6 +3,6 @@
 1er semestre
 
 **Sujet** : Développement d'une application Android  
-**Languages utilisés** : Java
+**Language utilisé** : Java
 
 Projet réalisé seul
