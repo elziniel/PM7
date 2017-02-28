@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.elziniel.projet.Modifier"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:text="@string/mo_texte"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/accueil"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nom"
+            android:layout_below="@+id/accueil"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adresse"
+            android:layout_below="@+id/nom"
+            android:inputType="textPostalAddress" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/telephone"
+            android:layout_below="@+id/adresse"
+            android:inputType="phone" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/site"
+            android:layout_below="@+id/telephone"
+            android:inputType="textWebEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aj_note"
+            android:id="@+id/note"
+            android:layout_alignTop="@+id/appreciation"
+            android:layout_alignBottom="@+id/appreciation"
+            android:textSize="24sp"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/appreciation"
+            android:gravity="center_vertical|center_horizontal" />
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appreciation"
+            android:layout_below="@+id/site"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aj_categorie"
+            android:id="@+id/prix"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/categorie"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="24sp"
+            android:layout_alignTop="@+id/categorie"
+            android:layout_toStartOf="@id/categorie" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="64sp"
+            android:id="@+id/categorie"
+            android:layout_below="@+id/appreciation"
+            android:layout_alignStart="@+id/appreciation" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cuisine"
+            android:layout_below="@+id/categorie"
+            android:hint="@string/aj_cuisine" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mo_modifier"
+            android:id="@+id/modifier"
+            android:onClick="modifier"
+            android:layout_below="@+id/cuisine"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>

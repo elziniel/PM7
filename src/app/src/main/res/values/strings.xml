@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Projet</string>
+
+    <string name="ac_texte">Page d\'accueil\nRestaurants</string>
+    <string name="ac_parcourir">Parcourir</string>
+    <string name="ac_rechercher">Rechercher</string>
+    <string name="ac_ajouter">Ajouter</string>
+
+    <string name="aj_texte">Ajouter un\nRestaurant</string>
+    <string name="aj_nom">Nom</string>
+    <string name="aj_adresse">Adresse</string>
+    <string name="aj_telephone">Numéro de téléphone</string>
+    <string name="aj_site">Site internet</string>
+    <string name="aj_note">Note</string>
+    <string name="aj_categorie">Prix</string>
+    <string name="aj_cuisine">Type de cuisine</string>
+    <string name="aj_ajouter">Ajouter</string>
+    <string name="aj_retour">Retour</string>
+
+    <string name="fi_modifier">Modifier</string>
+    <string name="fi_partager">Partager</string>
+    <string name="fi_supprimer">Supprimer</string>
+    <string name="fi_adresse">Adresse : </string>
+    <string name="fi_telephone">Téléphone : </string>
+    <string name="fi_site">Site internet : </string>
+    <string name="fi_prix">Catégorie de prix : </string>
+    <string name="fi_cuisine">Type de cuisine : </string>
+
+    <string name="mo_texte">Modifier un\nRestaurant</string>
+    <string name="mo_modifier">Modifier</string>
+
+    <string name="re_texte">Rechercher un\nRestaurant</string>
+    <string name="re_rechercher">Rechercher</string>
+
+    <string name="pa_numero">Numero</string>
+    <string name="pa_message">Message</string>
+    <string name="pa_envoyer">Envoyer</string>
+
+    <string-array name="categorie">
+        <item>Non défini</item>
+        <item>de 0€ à 9€</item>
+        <item>de 10€ à 19€</item>
+        <item>de 20€ à 29€</item>
+        <item>de 30€ à 39€</item>
+        <item>de 40€ à 49€</item>
+    </string-array>
+
+    <string name="oui">oui</string>
+    <string name="non">non</string>
+</resources>
